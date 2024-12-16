@@ -130,6 +130,7 @@ const LayoutBase = props => {
               <hr />
               <GroupTag tagOptions={tagOptions} currentTag={currentTag} />
               {/* 站点公告信息 */}
+              <Announcement {...props} className='p-2' />
             </div>
             <Footer />
           </main>
