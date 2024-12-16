@@ -166,7 +166,10 @@ const LayoutIndex = props => {
       <GameListRecent />
       {/* 游戏列表 */}
       <LayoutPostList {...props} />
-      <Announcement {...props} className='p-2' />
+      {/* 站点公告信息 */}
+      <div className="order-2 mt-4">
+        <Announcement {...props} className='p-2' />
+      </div>
     </>
   )
 }
