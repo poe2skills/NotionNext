@@ -313,14 +313,13 @@ const LayoutSlug = props => {
             <div className={`w-full md:py-2`}>
               {/* 游戏窗口 */}
               <GameEmbed post={post} siteInfo={siteInfo} />
-               <GameListIndexCombine posts={randomGames} 
+              <GameListIndexCombine posts={randomGames}
               {/* 资讯 */}
               <div className='game-info  dark:text-white py-2 px-2 md:px-0 mt-14 md:mt-0'>
                 {/* 关联游戏 */}
                 <div className='w-full'>
                   <GameListRelate posts={relateGames} />
                 </div>
-
                 {/* 详情描述 */}
                 {post && (
                   <div className='bg-white shadow-md my-2 p-4 rounded-md dark:bg-black'>
@@ -337,9 +336,8 @@ const LayoutSlug = props => {
               </div>
             </div>
           </div>
-
           {/* 其它游戏列表 */}
- />
+         />
         </div>
       )}
     </>
