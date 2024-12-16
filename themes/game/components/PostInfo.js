@@ -25,8 +25,6 @@ export default function PostInfo(props) {
           )}
         </div>
 
-
-
         {post?.type !== 'Page' && (
           <>
             <nav className='flex my-2 items-start text-gray-500 dark:text-gray-400'>
